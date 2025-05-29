@@ -1,9 +1,35 @@
+<!--=============== NEWSLETTER ===============-->
+<section class="newsletter section">
+    <div class="newsletter__container container grid">
+        <h3 class="newsletter__title flex">
+            <img
+                    src="../public/shop/assets/img/icon-email.svg"
+                    alt=""
+                    class="newsletter__icon"
+            />
+            Sign in to Newsletter
+        </h3>
+        <p class="newsletter__description">
+            ...and receive $25 coupon for first shopping.
+        </p>
+        <form action="" class="newsletter__form">
+            <input
+                    type="text"
+                    placeholder="Enter Your Email"
+                    class="newsletter__input"
+            />
+            <button type="submit" class="newsletter__btn">Subscribe</button>
+        </form>
+    </div>
+</section>
+</main>
+
 <!--=============== FOOTER ===============-->
 <footer class="footer container">
     <div class="footer__container grid">
         <div class="footer__content">
             <a href="index.html" class="footer__logo">
-                <img src="./assets/img/logo.svg" alt="" class="footer__logo-img"/>
+                <img src="../public/shop/assets/img/logo.svg" alt="" class="footer__logo-img"/>
             </a>
             <h4 class="footer__subtitle">Contact</h4>
             <p class="footer__description">
@@ -20,35 +46,35 @@
                 <div class="footer__links flex">
                     <a href="#">
                         <img
-                                src="./assets/img/icon-facebook.svg"
+                                src="../public/shop/assets/img/icon-facebook.svg"
                                 alt=""
                                 class="footer__social-icon"
                         />
                     </a>
                     <a href="#">
                         <img
-                                src="./assets/img/icon-twitter.svg"
+                                src="../public/shop/assets/img/icon-twitter.svg"
                                 alt=""
                                 class="footer__social-icon"
                         />
                     </a>
                     <a href="#">
                         <img
-                                src="./assets/img/icon-instagram.svg"
+                                src="../public/shop/assets/img/icon-instagram.svg"
                                 alt=""
                                 class="footer__social-icon"
                         />
                     </a>
                     <a href="#">
                         <img
-                                src="./assets/img/icon-pinterest.svg"
+                                src="../public/shop/assets/img/icon-pinterest.svg"
                                 alt=""
                                 class="footer__social-icon"
                         />
                     </a>
                     <a href="#">
                         <img
-                                src="./assets/img/icon-youtube.svg"
+                                src="../public/shop/assets/img/icon-youtube.svg"
                                 alt=""
                                 class="footer__social-icon"
                         />
@@ -81,7 +107,7 @@
         <div class="footer__content">
             <h3 class="footer__title">Secured Payed Gateways</h3>
             <img
-                    src="./assets/img/payment-method.png"
+                    src="../public/shop/assets/img/payment-method.png"
                     alt=""
                     class="payment__img"
             />
@@ -97,7 +123,9 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!--=============== MAIN JS ===============-->
-<script src="assets/js/cart.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="../public/shop/assets/js/cart.js"></script>
+<script src="../public/shop/assets/js/main.js"></script>
+<script src="../public/shop/assets/js/validate.js"></script>
+<!--<script src="../public/shop/assets/js/details.js"></script>-->
 </body>
 </html>

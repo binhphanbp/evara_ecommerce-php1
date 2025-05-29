@@ -3,7 +3,7 @@
     <!--=============== BREADCRUMB ===============-->
     <section class="breadcrumb">
         <ul class="breadcrumb__list flex container">
-            <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+            <li><a href="?page=index" class="breadcrumb__link">Home</a></li>
             <li><span class="breadcrumb__link"></span></li>
             <li><span class="breadcrumb__link">Fashion</span></li>
             <li><span class="breadcrumb__link"></span></li>
@@ -13,132 +13,132 @@
 
     <!--=============== DETAILS ===============-->
     <section id="productDetails" class="details section--lg">
-        <!-- <div class="details__container container grid">
-          <div class="details__group">
-            <img
-              src="./assets/img/product-8-1.jpg"
-              alt=""
-              class="details__img"
-            />
-            <div class="details__small-images grid">
-              <img
-                src="./assets/img/product-8-2.jpg"
-                alt=""
-                class="details__small-img"
-              />
-              <img
-                src="./assets/img/product-8-1.jpg"
-                alt=""
-                class="details__small-img"
-              />
-              <img
-                src="./assets/img/product-8-2.jpg"
-                alt=""
-                class="details__small-img"
-              />
+        <div class="details__container container grid">
+            <div class="details__group">
+                <img
+                        src="../public/shop/assets/img/product-8-1.jpg"
+                        alt=""
+                        class="details__img"
+                />
+                <div class="details__small-images grid">
+                    <img
+                            src="../public/shop/assets/img/product-8-2.jpg"
+                            alt=""
+                            class="details__small-img"
+                    />
+                    <img
+                            src="../public/shop/assets/img/product-8-1.jpg"
+                            alt=""
+                            class="details__small-img"
+                    />
+                    <img
+                            src="../public/shop/assets/img/product-8-2.jpg"
+                            alt=""
+                            class="details__small-img"
+                    />
+                </div>
             </div>
-          </div>
-          <div class="details__group">
-            <h3 class="details__title">Henley Shirt</h3>
-            <p class="details__brand">Brand: <span>adidas</span></p>
-            <div class="details__price flex">
-              <span class="new__price">$116</span>
-              <span class="old__price">$200.00</span>
-              <span class="save__price">25% Off</span>
+            <div class="details__group">
+                <h3 class="details__title">Henley Shirt</h3>
+                <p class="details__brand">Brand: <span>adidas</span></p>
+                <div class="details__price flex">
+                    <span class="new__price">$116</span>
+                    <span class="old__price">$200.00</span>
+                    <span class="save__price">25% Off</span>
+                </div>
+                <p class="short__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptate, fuga. Quo blanditiis recusandae facere nobis cum optio,
+                    inventore aperiam placeat, quis maxime nam officiis illum? Optio
+                    et nisi eius, inventore impedit ratione sunt, cumque, eligendi
+                    asperiores iste porro non error?
+                </p>
+                <ul class="products__list">
+                    <li class="list__item flex">
+                        <i class="fi-rs-crown"></i> 1 Year Al Jazeera Brand Warranty
+                    </li>
+                    <li class="list__item flex">
+                        <i class="fi-rs-refresh"></i> 30 Days Return Policy
+                    </li>
+                    <li class="list__item flex">
+                        <i class="fi-rs-credit-card"></i> Cash on Delivery available
+                    </li>
+                </ul>
+                <div class="details__color flex">
+                    <span class="details__color-title">Color</span>
+                    <ul class="color__list">
+                        <li>
+                            <a
+                                    href="#"
+                                    class="color__link"
+                                    style="background-color: hsl(37, 100%, 65%)"
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                    href="#"
+                                    class="color__link"
+                                    style="background-color: hsl(353, 100%, 65%)"
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                    href="#"
+                                    class="color__link"
+                                    style="background-color: hsl(49, 100%, 60%)"
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                    href="#"
+                                    class="color__link"
+                                    style="background-color: hsl(304, 100%, 78%)"
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                    href="#"
+                                    class="color__link"
+                                    style="background-color: hsl(126, 61%, 52%)"
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="details__size flex">
+                    <span class="details__size-title">Size</span>
+                    <ul class="size__list">
+                        <li>
+                            <a href="#" class="size__link size-active">M</a>
+                        </li>
+                        <li>
+                            <a href="#" class="size__link">L</a>
+                        </li>
+                        <li>
+                            <a href="#" class="size__link">XL</a>
+                        </li>
+                        <li>
+                            <a href="#" class="size__link">XXL</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="details__action">
+                    <input type="number" class="quantity" value="3"/>
+                    <a href="#" class="btn btn--sm">Add To Card</a>
+                    <a href="#" class="details__action-btn">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+                </div>
+                <ul class="details__meta">
+                    <li class="meta__list flex"><span>SKU:</span>FWM15VKT</li>
+                    <li class="meta__list flex">
+                        <span>Tags:</span>Clothes, Women, Dress
+                    </li>
+                    <li class="meta__list flex">
+                        <span>Availability:</span>8 Items in Stock
+                    </li>
+                </ul>
             </div>
-            <p class="short__description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptate, fuga. Quo blanditiis recusandae facere nobis cum optio,
-              inventore aperiam placeat, quis maxime nam officiis illum? Optio
-              et nisi eius, inventore impedit ratione sunt, cumque, eligendi
-              asperiores iste porro non error?
-            </p>
-            <ul class="products__list">
-              <li class="list__item flex">
-                <i class="fi-rs-crown"></i> 1 Year Al Jazeera Brand Warranty
-              </li>
-              <li class="list__item flex">
-                <i class="fi-rs-refresh"></i> 30 Days Return Policy
-              </li>
-              <li class="list__item flex">
-                <i class="fi-rs-credit-card"></i> Cash on Delivery available
-              </li>
-            </ul>
-            <div class="details__color flex">
-              <span class="details__color-title">Color</span>
-              <ul class="color__list">
-                <li>
-                  <a
-                    href="#"
-                    class="color__link"
-                    style="background-color: hsl(37, 100%, 65%)"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="color__link"
-                    style="background-color: hsl(353, 100%, 65%)"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="color__link"
-                    style="background-color: hsl(49, 100%, 60%)"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="color__link"
-                    style="background-color: hsl(304, 100%, 78%)"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="color__link"
-                    style="background-color: hsl(126, 61%, 52%)"
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <div class="details__size flex">
-              <span class="details__size-title">Size</span>
-              <ul class="size__list">
-                <li>
-                  <a href="#" class="size__link size-active">M</a>
-                </li>
-                <li>
-                  <a href="#" class="size__link">L</a>
-                </li>
-                <li>
-                  <a href="#" class="size__link">XL</a>
-                </li>
-                <li>
-                  <a href="#" class="size__link">XXL</a>
-                </li>
-              </ul>
-            </div>
-            <div class="details__action">
-              <input type="number" class="quantity" value="3" />
-              <a href="#" class="btn btn--sm">Add To Card</a>
-              <a href="#" class="details__action-btn">
-                <i class="fi fi-rs-heart"></i>
-              </a>
-            </div>
-            <ul class="details__meta">
-              <li class="meta__list flex"><span>SKU:</span>FWM15VKT</li>
-              <li class="meta__list flex">
-                <span>Tags:</span>Clothes, Women, Dress
-              </li>
-              <li class="meta__list flex">
-                <span>Availability:</span>8 Items in Stock
-              </li>
-            </ul>
-          </div>
-        </div> -->
+        </div>
     </section>
 
     <!--=============== DETAILS TAB ===============-->
@@ -215,7 +215,7 @@
                     <div class="review__single">
                         <div>
                             <img
-                                    src="./assets/img/avatar-1.jpg"
+                                    src="../public/shop/assets/img/avatar-1.jpg"
                                     alt=""
                                     class="review__img"
                             />
@@ -238,7 +238,7 @@
                     <div class="review__single">
                         <div>
                             <img
-                                    src="./assets/img/avatar-2.jpg"
+                                    src="../public/shop/assets/img/avatar-2.jpg"
                                     alt=""
                                     class="review__img"
                             />
@@ -261,7 +261,7 @@
                     <div class="review__single">
                         <div>
                             <img
-                                    src="./assets/img/avatar-3.jpg"
+                                    src="../public/shop/assets/img/avatar-3.jpg"
                                     alt=""
                                     class="review__img"
                             />
@@ -318,28 +318,3 @@
         </div>
     </section>
 
-    <!--=============== NEWSLETTER ===============-->
-    <section class="newsletter section">
-        <div class="newsletter__container container grid">
-            <h3 class="newsletter__title flex">
-                <img
-                        src="./assets/img/icon-email.svg"
-                        alt=""
-                        class="newsletter__icon"
-                />
-                Sign in to Newsletter
-            </h3>
-            <p class="newsletter__description">
-                ...and receive $25 coupon for first shopping.
-            </p>
-            <form action="" class="newsletter__form">
-                <input
-                        type="text"
-                        placeholder="Enter Your Email"
-                        class="newsletter__input"
-                />
-                <button type="submit" class="newsletter__btn">Subscribe</button>
-            </form>
-        </div>
-    </section>
-</main>

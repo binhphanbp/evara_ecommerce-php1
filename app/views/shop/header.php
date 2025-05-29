@@ -32,24 +32,24 @@
             <p class="header__alert-news">
                 Super Values Deals - Save more coupons
             </p>
-            <a href="login-register.html" class="header__top-action">
+            <a href="?page=login_register" class="header__top-action">
                 Log In / Sign Up
             </a>
         </div>
     </div>
 
     <nav class="nav container">
-        <a href="index.html" class="nav__logo">
+        <a href="?page=index" class="nav__logo">
             <img
                     class="nav__logo-img"
-                    src="assets/img/logo.svg"
+                    src="../public/shop/assets/img/logo.svg"
                     alt="logo"
             />
         </a>
         <div class="nav__menu" id="nav-menu">
             <div class="nav__menu-top">
-                <a href="index.html" class="nav__menu-logo">
-                    <img src="./assets/img/logo.svg" alt=""/>
+                <a href="?page=index" class="nav__menu-logo">
+                    <img src="../public/shop/assets/img/logo.svg" alt=""/>
                 </a>
                 <div class="nav__close" id="nav-close">
                     <i class="fi fi-rs-cross-small"></i>
@@ -57,19 +57,19 @@
             </div>
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="index.html" class="nav__link active-link">Home</a>
+                    <a href="?page=index" class="nav__link active-link">Home</a>
                 </li>
                 <li class="nav__item">
-                    <a href="shop.html" class="nav__link">Shop</a>
+                    <a href="?page=shop" class="nav__link">Shop</a>
                 </li>
                 <li class="nav__item">
-                    <a href="accounts.html" class="nav__link">My Account</a>
+                    <a href="?page=accounts" class="nav__link">My Account</a>
                 </li>
                 <li class="nav__item">
-                    <a href="compare.html" class="nav__link">Compare</a>
+                    <a href="?page=compare" class="nav__link">Compare</a>
                 </li>
                 <li class="nav__item">
-                    <a href="login-register.html" class="nav__link">Login</a>
+                    <a href="?page=login_register" class="nav__link">Login</a>
                 </li>
             </ul>
             <div class="header__search">
@@ -79,21 +79,21 @@
                         class="form__input"
                 />
                 <button class="search__btn">
-                    <img src="assets/img/search.png" alt="search icon"/>
+                    <img src="../public/shop/assets/img/search.png" alt="search icon"/>
                 </button>
             </div>
         </div>
         <div class="header__user-actions">
-            <a href="wishlist.html" class="header__action-btn" title="Wishlist">
-                <img src="assets/img/icon-heart.svg" alt=""/>
+            <a href="?page=wishlist" class="header__action-btn" title="Wishlist">
+                <img src="../public/shop/assets/img/icon-heart.svg" alt=""/>
                 <span class="count">3</span>
             </a>
-            <a href="cart.html" class="header__action-btn" title="Cart">
-                <img src="assets/img/icon-cart.svg" alt=""/>
+            <a href="?page=cart" class="header__action-btn" title="Cart">
+                <img src="../public/shop/assets/img/icon-cart.svg" alt=""/>
                 <span class="count">3</span>
             </a>
             <div class="header__action-btn nav__toggle" id="nav-toggle">
-                <img src="./assets//img/menu-burger.svg" alt=""/>
+                <img src="../public/shop/assets/img/menu-burger.svg" alt=""/>
             </div>
         </div>
     </nav>

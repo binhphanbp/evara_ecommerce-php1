@@ -3,7 +3,7 @@
     <!--=============== BREADCRUMB ===============-->
     <section class="breadcrumb">
         <ul class="breadcrumb__list flex container">
-            <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+            <li><a href="?page=index" class="breadcrumb__link">Home</a></li>
             <li><span class="breadcrumb__link"></span></li>
             <li><span class="breadcrumb__link">Shop</span></li>
         </ul>
@@ -15,14 +15,14 @@
         <div class="products__container grid">
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-1-1.jpg"
+                                src="../public/shop/assets/img/product-1-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-1-2.jpg"
+                                src="../public/shop/assets/img/product-1-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -42,7 +42,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -67,14 +67,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-2-1.jpg"
+                                src="../public/shop/assets/img/product-2-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-2-2.jpg"
+                                src="../public/shop/assets/img/product-2-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -94,7 +94,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -119,14 +119,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-3-1.jpg"
+                                src="../public/shop/assets/img/product-3-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-3-2.jpg"
+                                src="../public/shop/assets/img/product-3-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -146,7 +146,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -171,14 +171,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-4-1.jpg"
+                                src="../public/shop/assets/img/product-4-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-4-2.jpg"
+                                src="../public/shop/assets/img/product-4-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -198,7 +198,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -223,14 +223,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-5-1.jpg"
+                                src="../public/shop/assets/img/product-5-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-5-2.jpg"
+                                src="../public/shop/assets/img/product-5-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -250,7 +250,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -275,14 +275,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-6-1.jpg"
+                                src="../public/shop/assets/img/product-6-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-6-2.jpg"
+                                src="../public/shop/assets/img/product-6-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -302,7 +302,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -327,14 +327,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-7-1.jpg"
+                                src="../public/shop/assets/img/product-7-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-7-2.jpg"
+                                src="../public/shop/assets/img/product-7-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -354,7 +354,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -379,14 +379,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-8-1.jpg"
+                                src="../public/shop/assets/img/product-8-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-8-2.jpg"
+                                src="../public/shop/assets/img/product-8-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -405,7 +405,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -430,14 +430,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-10-1.jpg"
+                                src="../public/shop/assets/img/product-10-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-10-2.jpg"
+                                src="../public/shop/assets/img/product-10-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -457,7 +457,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -482,14 +482,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-11-1.jpg"
+                                src="../public/shop/assets/img/product-11-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-11-2.jpg"
+                                src="../public/shop/assets/img/product-11-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -509,7 +509,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -534,14 +534,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-4-1.jpg"
+                                src="../public/shop/assets/img/product-4-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-4-2.jpg"
+                                src="../public/shop/assets/img/product-4-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -561,7 +561,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -586,14 +586,14 @@
             </div>
             <div class="product__item">
                 <div class="product__banner">
-                    <a href="details.html" class="product__images">
+                    <a href="?page=details" class="product__images">
                         <img
-                                src="assets/img/product-12-1.jpg"
+                                src="../public/shop/assets/img/product-12-1.jpg"
                                 alt=""
                                 class="product__img default"
                         />
                         <img
-                                src="assets/img/product-12-2.jpg"
+                                src="../public/shop/assets/img/product-12-2.jpg"
                                 alt=""
                                 class="product__img hover"
                         />
@@ -612,7 +612,7 @@
                 </div>
                 <div class="product__content">
                     <span class="product__category">Clothing</span>
-                    <a href="details.html">
+                    <a href="?page=details">
                         <h3 class="product__title">Colorful Pattern Shirts</h3>
                     </a>
                     <div class="product__rating">
@@ -650,28 +650,3 @@
         </ul>
     </section>
 
-    <!--=============== NEWSLETTER ===============-->
-    <section class="newsletter section">
-        <div class="newsletter__container container grid">
-            <h3 class="newsletter__title flex">
-                <img
-                        src="./assets/img/icon-email.svg"
-                        alt=""
-                        class="newsletter__icon"
-                />
-                Sign in to Newsletter
-            </h3>
-            <p class="newsletter__description">
-                ...and receive $25 coupon for first shopping.
-            </p>
-            <form action="" class="newsletter__form">
-                <input
-                        type="text"
-                        placeholder="Enter Your Email"
-                        class="newsletter__input"
-                />
-                <button type="submit" class="newsletter__btn">Subscribe</button>
-            </form>
-        </div>
-    </section>
-</main>
